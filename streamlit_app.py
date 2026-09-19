@@ -21,12 +21,17 @@ st.set_page_config(
 st.title("ANCETRA")
 
 st.subheader("Anastasi Chemical Energetics, Thermodynamics & Reaction Analysis")
+st.caption("Version 0.1.0 - CH/CHO Thermodynamic Property Estimator")
 
 st.write(
     """
     An open-source framework for thermodynamic property estimation, 
     reaction-space exploration, and early-stage process analysis.
     """
+)
+st.info(
+    "Current release: thermodynamic property estimation "
+    "for CH and CHO organic compounds."
 )
 
 st.divider()
@@ -198,8 +203,20 @@ with st.expander("About the CH/CHO Model"):
         - CH and CHO organic compounds
         - Standard enthalpy of formation
         - Standard Gibbs free energy of formation
+        - Standard enthalpy of combustion
+        - Standard Gibbs free energy of combustion
+        - Single-compound and batch estimation
 
-        Additional elemental composition adn thermodynamics properties
-        are under development.
+        Additional elemental compositions and thermodynamics properties are under development.
         """
     )
+
+st.divider()
+st.caption(
+    "ANCETRA is open-source research software developed for "
+    "thermodynamic property estimation and reaction analysis."
+)
+st.markdown(
+    "[GitHub Repository] https://github.com/tonyanastasi22/biomass-thermo-model "
+    "[Model Publication] https://psecommunity.org/LAPSE:2026.0370 "
+)
