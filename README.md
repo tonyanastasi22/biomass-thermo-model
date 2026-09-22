@@ -67,6 +67,10 @@ Tested with:
 - Windows 11
 - Python 3.13.2
 
+## App Interface
+
+This has now been put on Streamlit for a more application based interface! [ANCETRA App](https://ancetra.streamlit.app)
+
 ## Citation
 
 Based on work of Anastasi, A. et al in ESCAPE36 Proceedings.
